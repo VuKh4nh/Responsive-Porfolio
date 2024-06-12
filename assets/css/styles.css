@@ -669,7 +669,28 @@ img {
     visibility: visible;
 }
 /*==================== PORTFOLIO ====================*/
+.porfolio__container {
+    overflow: initial;
+}
+.porfolio__content {
+    padding: 0 1.5rem;
+}
+.porfolio__img {
+    width: 265px;
+    border-radius: 0.5rem;
+    justify-self: center;
+}
 
+.profolio__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+.profolio__description {
+    margin-bottom: var(--mb-0-75);
+}
+.porfolio__button:hover .button__icon {
+    transform: translateX(0.25rem);
+}
 /*==================== PROJECT IN MIND ====================*/
 
 /*==================== TESTIMONIAL ====================*/
