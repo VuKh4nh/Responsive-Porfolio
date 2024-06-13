@@ -690,19 +690,19 @@
                 <h2 class="section__title">Porfolio</h2>
                 <span class="section__subtitle">Most recent wrok</span>
 
-                <div class="porfolio__container container">
-                    <div>
+                <div class="porfolio__container container swiper">
+                    <div class="swiper-wrapper">
                         <!-- POR 1 -->
-                        <div class="porfolio__content grid">
+                        <div class="porfolio__content grid swiper-slide">
                             <img
-                                src="./assets/img/porfolio_besnik.png"
+                                src="./assets/img/porfolio_shine-smile.png"
                                 alt=""
                                 class="porfolio__img"
                             />
                             <div class="porfolio__data">
-                                <h3 class="profolio__title">Besnik Web</h3>
+                                <h3 class="profolio__title">Shine Smile</h3>
                                 <p class="profolio__description">
-                                    Website landing page to HomeStay
+                                    Website landing page to dental
                                 </p>
                                 <a
                                     href="#"
@@ -715,7 +715,7 @@
                             </div>
                         </div>
                         <!-- POR 2 -->
-                        <div class="porfolio__content grid">
+                        <div class="porfolio__content grid swiper-slide">
                             <img
                                 src="./assets/img/porfolio-mp3.png"
                                 alt=""
@@ -737,7 +737,7 @@
                             </div>
                         </div>
                         <!-- POR 3 -->
-                        <div class="porfolio__content grid">
+                        <div class="porfolio__content grid swiper-slide">
                             <img
                                 src="./assets/img/porfolio_Lesson..png"
                                 alt=""
@@ -758,6 +758,47 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-porfolio-icon">
+                        </i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-porfolio-icon">
+                        </i>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <!-- PROJECT IN MIND -->
+            <section class="project section">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="project__title">
+                                You have a new Job or new Project
+                            </h2>
+                            <p class="project__description">
+                                Contact me now !!!
+                            </p>
+                            <a
+                                href="#contact"
+                                class="button button--flex button--white"
+                            >
+                                Contact Me
+                                <i
+                                    class="uil uil-message project__icon button__icon"
+                                >
+                                </i>
+                            </a>
+                        </div>
+                        <img
+                            src="./assets/img/cute_contact-me.png"
+                            alt=""
+                            class="project__img"
+                        />
                     </div>
                 </div>
             </section>
