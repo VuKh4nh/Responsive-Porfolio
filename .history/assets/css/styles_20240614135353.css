@@ -988,6 +988,7 @@ img {
         justify-content: center;
     }
 }
+/* For large devices */
 @media screen and (min-width: 768px) {
     .container {
         margin-right: auto;
@@ -1123,4 +1124,3 @@ img {
         margin-bottom: -3rem;
     }
 }
-/* For large devices */
